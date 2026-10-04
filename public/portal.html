@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Your order | Vinexy Cre8tive Studios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.stages{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.stages li{padding:8px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:.92rem;color:var(--muted);background:#fff}
+.stages li.cur{background:var(--cocoa);color:var(--sun);border-color:var(--cocoa);font-weight:600}
+.banner{padding:14px 18px;border-radius:14px;margin-bottom:18px;font-weight:500}
+.banner.ok{background:#DDF3E4;color:var(--ok)}.banner.wait{background:#FFF0CC;color:var(--warn)}.banner.bad{background:#FBE0DC;color:var(--bad)}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:16px 0}.kv div small{display:block;color:var(--muted);font-size:.85rem}.kv div b{font-size:1.15rem;font-family:Syne,sans-serif}
+.guard{filter:none;transition:filter .15s}.guard.hide{filter:blur(24px)}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a href="/" aria-label="Vinexy Cre8tive Studios"><img src="assets/logo.png" alt="Vinexy Cre8tive Studios"></a><nav><a href="/">Back to site</a></nav></div></header>
+<main class="wrap" style="padding-top:34px;padding-bottom:70px" id="app"><p>Loading your order…</p></main>
+<script src="portal.js"></script>
+</body>
+</html>
